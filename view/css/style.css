@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+div.main_content {}
+
+div.main_content_header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+div.main_content_header {
+    margin-top: 70px;
+}
+
+div.registration,
+div.login {
+    border: 1px solid #fff;
+    padding: 20px;
+    height: 300px;
+    background-color: #ededed;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+div.reg_body {
+    padding-left: 30px;
+}
+
+div.registration {
+    width: 50%;
+    float: left;
+    /*border-right: 5px solid black;*/
+}
+
+div.reg_header,
+div.log_header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div.login {
+    width: 50%;
+    float: left;
+}
+
+footer.footer {
+    background-color: #14141f;
+    min-height: 200px;
+    margin-top: 72px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+footer.footer p {
+    padding-top: 5%;
+}
+
+
+/*
+####################################
+    User Profile
+####################################
+*/
+
+div.cover_photo {
+    display: block;
+    position: relative;
+    margin-top: 50px;
+}
+
+div.cover_photo img {
+    height: 400px;
+    width: 1170px;
+}
+
+div.cover_photo div.profile_photo {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+form.cover_photo {
+    position: absolute;
+    right: 0px;
+    bottom: -47px;
+}
+
+section.profile_body form {
+    margin-top: 15px;
+}
+
+div.profile_photo img {
+    max-width: 300px;
+    max-height: 225px;
+}
+
+
+/*
+####################################
+    User home page
+####################################
+*/
+
+section.manue nav ul li a img {
+    height: 30px;
+    width: 40px;
+}
+
+section.user_home_body {
+    margin-top: 50px;
+}
+
+.askQuestions {
+    margin-top: 70px;
+}
+section.manue nav{
+    border: 1px solid #4862A3;
+}
+div.question_body, div.questin_header{
+    border: 1px solid #4862A3;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-bottom: 3px;
+}
+div.questin_header{
+    margin-top: 10px;
+    background-color: #999966;
+    text-align: center;
+    color: #fff;
+}
+div.ask_question_header{
+    background-color: #999966;
+    text-align: center;
+    color: #fff;
+    padding: 7px 0px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border: 1px solid #4862A3;
+}
+
+div.question_body_sQ, div.ask_question_body{
+    border: 1px solid #4862A3;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-bottom: 3px;
+    margin-top: 10px;
+    /*overflow: hidden;*/
+}
+div.single_ans{
+    border: 1px solid #4862A3;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-bottom: 3px;
+    /*margin-top: -10px;*/
+}
+#read_more{
+    color: green;
+}
+#read_more:hover{
+    color: #000;
+}
+
